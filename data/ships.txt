@@ -26,13 +26,13 @@ ship "Smuggler Argosy"
         "bunks" 8
         "cargo space" 60
         "outfit space" 340
-        "weapon capacity" 130
+        "weapon capacity" 120
         "engine capacity" 100
-		"weapon"
-			"blast radius" 36
-			"shield damage" 360
-			"hull damage" 180
-			"hit force" 540
+		weapon
+			"blast radius" 60
+			"shield damage" 600
+			"hull damage" 300
+			"hit force" 900
 	outfits
 		"Energy Blaster" 2
 		"Meteor Missile Launcher" 2
@@ -44,22 +44,22 @@ ship "Smuggler Argosy"
 		"LP072a Battery Pack"
 		"D23-QP Shield Generator"
 		"Small Radar Jammer"
-		"Laser Rifle" 2
 		
-		"A370 Atomic Thurster"
-		"A375 Atomic Steering"
+		"A250 Atomic Thurster"
+		"A255 Atomic Steering"
         "AR120 Reverse Thurster"
 		"Hyperdrive"
+
 	"engine" -25 93 0.6
 	"engine" -14 93 0.8
 	"engine" 14 93 0.8
 	"engine" 25 93 0.6
-	"gun" -22 -37 "Heavy Laser"
-	"gun" 22.5 -37 "Heavy Laser"
-	"gun" -22 -37 "Meteor Missile Launcher"
-	"gun" 22.5 -37 "Meteor Missile Launcher"
-	"turret" 0 -12.5 "Heavy Anti-Missile Turret"
-	"turret" 0 9.5 "Heavy Laser Turret"
+	gun -22 -37 "Energy Blaster"
+	gun -22 -37 "Meteor Missile Launcher"
+	gun 22 -37 "Energy Blaster"
+	gun 22 -37 "Meteor Missile Launcher"
+	turret 0 -12.5 "Blaster Turret"
+	turret 0 9.5 "Anti-Missile Turret"
 	"leak" "leak" 70 50
 	"leak" "flame" 30 80
 	"explode" "tiny explosion" 10
@@ -67,4 +67,4 @@ ship "Smuggler Argosy"
 	"explode" "medium explosion" 30
 	"explode" "large explosion" 15
 	"final explode" "final explosion medium"
-    "description" "The Argosy, in addition to being popular with pirates, is also the ideal smuggler's ship; strip out enough hull, add the best jammer you can find, and spend the extra space on engines to run from the law."
+    "description" "The Argosy, in addition to being popular with pirates, is also the ideal smuggler's ship; sacrificing comfort and cargo space for increased engine and weapon capacity, but without the additional drag and heat inefficiency of the pirate-modified Argosy frame."

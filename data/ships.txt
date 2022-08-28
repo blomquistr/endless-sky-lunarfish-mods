@@ -1,0 +1,70 @@
+# Copyright (c) 2022 by blomquistr
+# 
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+
+ship "Smuggler Argosy"
+    plural "Smuggler Argosies"
+    sprite "ship/modified argosy"
+    thumbnail "thubnail/modified argosy"
+    attributes
+        "category" "Light Warship"
+        "cost" 2110000
+        "shields" 4800
+        "hull" 1900
+        "mass" 250
+        "drag" 5.9
+        "fuel capacity" 400
+        "heat dissipation" 0.7
+        "required crew" 4
+        "bunks" 8
+        "cargo space" 60
+        "outfit space" 340
+        "weapon capacity" 130
+        "engine capacity" 100
+		"weapon"
+			"blast radius" 36
+			"shield damage" 360
+			"hull damage" 180
+			"hit force" 540
+	outfits
+		"Energy Blaster" 2
+		"Meteor Missile Launcher" 2
+		"Meteor Missile" 60
+		"Blaster Turret"
+		"Anti-Missile Turret"
+		
+		"NT-200 Nucleovoltaic"
+		"LP072a Battery Pack"
+		"D23-QP Shield Generator"
+		"Small Radar Jammer"
+		"Laser Rifle" 2
+		
+		"A370 Atomic Thurster"
+		"A375 Atomic Steering"
+        "AR120 Reverse Thurster"
+		"Hyperdrive"
+	"engine" -25 93 0.6
+	"engine" -14 93 0.8
+	"engine" 14 93 0.8
+	"engine" 25 93 0.6
+	"gun" -22 -37 "Heavy Laser"
+	"gun" 22.5 -37 "Heavy Laser"
+	"gun" -22 -37 "Meteor Missile Launcher"
+	"gun" 22.5 -37 "Meteor Missile Launcher"
+	"turret" 0 -12.5 "Heavy Anti-Missile Turret"
+	"turret" 0 9.5 "Heavy Laser Turret"
+	"leak" "leak" 70 50
+	"leak" "flame" 30 80
+	"explode" "tiny explosion" 10
+	"explode" "small explosion" 25
+	"explode" "medium explosion" 30
+	"explode" "large explosion" 15
+	"final explode" "final explosion medium"
+    "description" "The Argosy, in addition to being popular with pirates, is also the ideal smuggler's ship; strip out enough hull, add the best jammer you can find, and spend the extra space on engines to run from the law."

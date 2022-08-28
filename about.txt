@@ -1,0 +1,6 @@
+Lunarfish Mods
+
+A series of changes I've made to the base Endless Sky game for personal play. All of these should be considered "cheats" in that they're OP ships or modifications of pet ship types.
+
+So far, I've modified:
+- The base Argrosy (to add weapon/engine space at the cost of cargo and bunks)

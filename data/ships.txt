@@ -11,8 +11,8 @@
 
 ship "Smuggler Argosy"
     plural "Smuggler Argosies"
-	sprite "ship/modified argosy"
-	thumbnail "thumbnail/modified argosy"
+    sprite "ship/modified argosy"
+    thumbnail "thumbnail/modified argosy"
     attributes
         "category" "Light Warship"
         "cost" 2110000
@@ -47,7 +47,7 @@ ship "Smuggler Argosy"
 		
 		"A250 Atomic Thruster"
 		"A255 Atomic Steering"
-        "AR120 Reverse Thurster"
+		"AR120 Reverse Thruster"
 		"Hyperdrive"
 
 	"engine" -25 93 0.6
